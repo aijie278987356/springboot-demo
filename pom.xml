@@ -9,6 +9,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>springboot-demo-helloworld</module>
+        <module>springboot-demo-email</module>
         <!--<module>spring-boot-demo-properties</module>
         <module>spring-boot-demo-actuator</module>
         <module>spring-boot-demo-admin</module>
@@ -28,7 +29,6 @@
         <module>spring-boot-demo-upload</module>
         <module>spring-boot-demo-cache-redis</module>
         <module>spring-boot-demo-cache-ehcache</module>
-        <module>spring-boot-demo-email</module>
         <module>spring-boot-demo-task</module>
         <module>spring-boot-demo-task-quartz</module>
         <module>spring-boot-demo-task-xxl-job</module>

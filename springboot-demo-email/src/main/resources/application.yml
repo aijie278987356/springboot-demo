@@ -1,0 +1,18 @@
+spring:
+  mail:
+    username: 3108345861@qq.com
+    password: fzhmfmfpyhaaddah
+    host: smtp.qq.com
+  #  protocol: smtp
+  #     test-connection: true
+  #     default-encoding: UTF-8
+  #     properties:
+#        mail.smtp.auth: true
+#        mail.smtp.starttls.enable: true
+#        mail.smtp.starttls.required: true
+#        mail.smtp.ssl.enable: true
+#        mail.display.sendmail: springboot-demo
+# 为 jasypt 配置解密秘钥
+jasypt:
+  encryptor:
+    password: springboot-demo
