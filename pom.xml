@@ -72,7 +72,7 @@
     </modules>
     <packaging>pom</packaging>
 
-    <name>spring-boot-demo</name>
+    <name>springboot-demo</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
