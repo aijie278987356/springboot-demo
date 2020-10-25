@@ -1,4 +1,4 @@
-package org.aijie.springbootdemohelleword.entity;
+package org.aijie.helloworld.entity;
 
 import java.util.Date;
 import java.io.Serializable;

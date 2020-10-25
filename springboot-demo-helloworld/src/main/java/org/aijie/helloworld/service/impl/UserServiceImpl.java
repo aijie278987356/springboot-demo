@@ -1,8 +1,8 @@
-package org.aijie.springbootdemohelleword.service.impl;
+package org.aijie.helloworld.service.impl;
 
-import org.aijie.springbootdemohelleword.entity.User;
-import org.aijie.springbootdemohelleword.dao.UserDao;
-import org.aijie.springbootdemohelleword.service.UserService;
+import org.aijie.helloworld.entity.User;
+import org.aijie.helloworld.dao.UserDao;
+import org.aijie.helloworld.service.UserService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

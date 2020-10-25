@@ -1,6 +1,6 @@
-package org.aijie.springbootdemohelleword.service;
+package org.aijie.helloworld.service;
 
-import org.aijie.springbootdemohelleword.entity.User;
+import org.aijie.helloworld.entity.User;
 import java.util.List;
 
 /**

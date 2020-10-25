@@ -1,7 +1,7 @@
-package org.aijie.springbootdemohelleword.controller;
+package org.aijie.helloworld.controller;
 
-import org.aijie.springbootdemohelleword.entity.User;
-import org.aijie.springbootdemohelleword.service.UserService;
+import org.aijie.helloworld.entity.User;
+import org.aijie.helloworld.service.UserService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

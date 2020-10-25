@@ -1,6 +1,7 @@
-package org.aijie.springbootdemohelleword.dao;
+package org.aijie.helloworld.dao;
 
-import org.aijie.springbootdemohelleword.entity.User;
+import org.aijie.helloworld.entity.User;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
@@ -10,6 +11,7 @@ import java.util.List;
  * @author makejava
  * @since 2020-10-25 00:49:02
  */
+@Mapper
 public interface UserDao {
 
     /**
