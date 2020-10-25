@@ -1,0 +1,28 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    username: root
+    password: mysql
+    url: jdbc:mysql://localhost:3306/springboot?serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jackson:
+    date-format: yyyy-MM-dd HH时mm分ss秒
+logging:
+  level:
+    root: info
+    org.hibernate: info
+    org.hibernate.type.descriptor.sql.BasicBinder: trace
+    org.hibernate.type.descriptor.sql.BasicExtractor: trace
+    com.example: debug
+version: 1.0
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+  offsetAsPageNum: true
+  rowBoundsWithCount: true
+  pageSizeZero: true
+
