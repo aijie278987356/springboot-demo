@@ -1,6 +1,6 @@
-package org.aijie.helloworld.dao;
+package org.aijie.helloworld.user.dao;
 
-import org.aijie.helloworld.entity.User;
+import org.aijie.helloworld.user.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import java.util.List;

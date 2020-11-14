@@ -1,6 +1,6 @@
-package org.aijie.helloworld.service;
+package org.aijie.helloworld.user.service;
 
-import org.aijie.helloworld.entity.User;
+import org.aijie.helloworld.user.entity.User;
 import java.util.List;
 
 /**

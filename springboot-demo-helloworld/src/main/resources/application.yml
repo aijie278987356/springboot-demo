@@ -17,6 +17,11 @@ logging:
     com.example: debug
 version: 1.0
 
+#dao
+  #mybatis:
+  #  type-aliases-package: org.aijie.helloworld.user.dao
+#  mapper-locations: classpath*:org/aijie/helloworld/dao/*.xml
+
 pagehelper:
   helperDialect: mysql
   reasonable: true

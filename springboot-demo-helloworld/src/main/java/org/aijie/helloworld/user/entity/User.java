@@ -1,4 +1,4 @@
-package org.aijie.helloworld.entity;
+package org.aijie.helloworld.user.entity;
 
 import java.util.Date;
 import java.io.Serializable;

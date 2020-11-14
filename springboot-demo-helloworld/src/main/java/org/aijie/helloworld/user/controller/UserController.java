@@ -1,7 +1,7 @@
-package org.aijie.helloworld.controller;
+package org.aijie.helloworld.user.controller;
 
-import org.aijie.helloworld.entity.User;
-import org.aijie.helloworld.service.UserService;
+import org.aijie.helloworld.user.entity.User;
+import org.aijie.helloworld.user.service.UserService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -22,6 +22,15 @@ public class UserController {
      */
     @Resource
     private UserService userService;
+
+    /**
+     * 页面
+     */
+    @RequestMapping("/index")
+    public String index(){
+
+        return "index";
+    }
 
     /**
      * 通过主键查询单条数据
