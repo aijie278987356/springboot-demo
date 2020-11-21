@@ -10,8 +10,9 @@
     <modules>
         <module>springboot-demo-helloworld</module>
         <module>springboot-demo-email</module>
+        <module>springboot-demo-actuator</module>
         <!--<module>spring-boot-demo-properties</module>
-        <module>spring-boot-demo-actuator</module>
+
         <module>spring-boot-demo-admin</module>
         <module>spring-boot-demo-logback</module>
         <module>spring-boot-demo-log-aop</module>

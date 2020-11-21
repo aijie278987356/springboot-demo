@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8080
 spring:
   datasource:
     username: root
@@ -8,13 +8,13 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
   jackson:
     date-format: yyyy-MM-dd HH时mm分ss秒
-logging:
-  level:
-    root: info
-    org.hibernate: info
-    org.hibernate.type.descriptor.sql.BasicBinder: trace
-    org.hibernate.type.descriptor.sql.BasicExtractor: trace
-    com.example: debug
+#logging:
+#  level:
+#    root: info
+#    org.hibernate: info
+#    org.hibernate.type.descriptor.sql.BasicBinder: trace
+#    org.hibernate.type.descriptor.sql.BasicExtractor: trace
+#    com.example: debug
 version: 1.0
 
 #dao
