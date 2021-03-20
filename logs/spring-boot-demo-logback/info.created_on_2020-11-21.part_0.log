@@ -1,0 +1,48 @@
+2020-11-21 11:40:42.042  INFO 4560 --- [main] .a.h.SpringbootDemoHelloworldApplication : Starting SpringbootDemoHelloworldApplication on DESKTOP-J8PU2EC with PID 4560 (D:\study\springboot-demo\springboot-demo-helloworld\target\classes started by 13920 in D:\study\springboot-demo)
+2020-11-21 11:40:42.045  INFO 4560 --- [main] .a.h.SpringbootDemoHelloworldApplication : No active profile set, falling back to default profiles: default
+2020-11-21 11:40:43.230  INFO 4560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-21 11:40:43.249  INFO 4560 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-21 11:40:43.250  INFO 4560 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-11-21 11:40:43.257  INFO 4560 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Java\jdk1.8.0_65\bin;D:\Java\jdk1.8.0_65\jre\bin;D:\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\mysql-8.0.13-winx64\bin;D:\Program Files\nodejs\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;D:\Program Files\Git\cmd;C:\Users\13920\AppData\Local\Microsoft\WindowsApps;C:\Users\13920\AppData\Roaming\npm;;D:\Program Files\Fiddler;.]
+2020-11-21 11:40:43.435  INFO 4560 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-21 11:40:43.435  INFO 4560 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1310 ms
+2020-11-21 11:40:43.462  INFO 4560 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-11-21 11:40:43.466  INFO 4560 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-21 11:40:43.466  INFO 4560 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-21 11:40:43.466  INFO 4560 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-11-21 11:40:43.466  INFO 4560 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-21 11:40:43.968  INFO 4560 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-21 11:40:44.090  INFO 4560 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-11-21 11:40:44.258  INFO 4560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-21 11:40:44.261  INFO 4560 --- [main] .a.h.SpringbootDemoHelloworldApplication : Started SpringbootDemoHelloworldApplication in 2.789 seconds (JVM running for 4.53)
+2020-11-21 11:42:07.724  INFO 4560 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-21 11:42:07.725  INFO 4560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-21 11:42:07.732  INFO 4560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-11-21 11:46:24.529  INFO 14304 --- [main] .a.h.SpringbootDemoHelloworldApplication : Starting SpringbootDemoHelloworldApplication on DESKTOP-J8PU2EC with PID 14304 (D:\study\springboot-demo\springboot-demo-helloworld\target\classes started by 13920 in D:\study\springboot-demo)
+2020-11-21 11:46:24.534  INFO 14304 --- [main] .a.h.SpringbootDemoHelloworldApplication : No active profile set, falling back to default profiles: default
+2020-11-21 11:46:26.520  INFO 14304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-21 11:46:26.546  INFO 14304 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-21 11:46:26.546  INFO 14304 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-11-21 11:46:26.554  INFO 14304 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Java\jdk1.8.0_65\bin;D:\Java\jdk1.8.0_65\jre\bin;D:\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\mysql-8.0.13-winx64\bin;D:\Program Files\nodejs\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;D:\Program Files\Git\cmd;C:\Users\13920\AppData\Local\Microsoft\WindowsApps;C:\Users\13920\AppData\Roaming\npm;;D:\Program Files\Fiddler;.]
+2020-11-21 11:46:26.813  INFO 14304 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-21 11:46:26.814  INFO 14304 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2165 ms
+2020-11-21 11:46:26.862  INFO 14304 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-11-21 11:46:26.869  INFO 14304 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-21 11:46:26.869  INFO 14304 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-21 11:46:26.869  INFO 14304 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-11-21 11:46:26.869  INFO 14304 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-21 11:46:27.839  INFO 14304 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-21 11:46:28.026  INFO 14304 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-11-21 11:46:28.393  INFO 14304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-21 11:46:28.401  INFO 14304 --- [main] .a.h.SpringbootDemoHelloworldApplication : Started SpringbootDemoHelloworldApplication in 4.607 seconds (JVM running for 7.954)
+2020-11-21 11:47:38.552  INFO 14304 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-21 11:47:38.552  INFO 14304 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-21 11:47:38.571  INFO 14304 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2020-11-21 11:47:38.614  INFO 14304 --- [http-nio-8080-exec-2] org.aijie.helloworld.aspect.AopLog       : 【请求 URL】：http://localhost:8080/index
+2020-11-21 11:47:38.614  INFO 14304 --- [http-nio-8080-exec-2] org.aijie.helloworld.aspect.AopLog       : 【请求 IP】：0:0:0:0:0:0:0:1
+2020-11-21 11:47:38.617  INFO 14304 --- [http-nio-8080-exec-2] org.aijie.helloworld.aspect.AopLog       : 【请求类名】：org.aijie.helloworld.capital.controller.CapitalController，【请求方法名】：index
+2020-11-21 11:47:38.633  INFO 14304 --- [http-nio-8080-exec-2] org.aijie.helloworld.aspect.AopLog       : 【请求参数】：{}，
+2020-11-21 11:47:38.640  INFO 14304 --- [http-nio-8080-exec-2] org.aijie.helloworld.aspect.AopLog       : 【返回值】：index
+2020-11-21 11:47:38.641  INFO 14304 --- [http-nio-8080-exec-2] org.aijie.helloworld.aspect.AopLog       : 【请求耗时】：8毫秒
+2020-11-21 11:47:38.658  INFO 14304 --- [http-nio-8080-exec-2] org.aijie.helloworld.aspect.AopLog       : 【浏览器类型】：CHROME8，【操作系统】：WINDOWS_10，【原始User-Agent】：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+2020-11-21 12:07:42.671  INFO 14304 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

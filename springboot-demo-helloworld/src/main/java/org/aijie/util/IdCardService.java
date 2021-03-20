@@ -20,7 +20,7 @@ public class IdCardService {
      * @return 返回身份证信息
      * @throws UnsupportedEncodingException
      */
-    public static String getIdCardDetail(String cardNo) throws UnsupportedEncodingException{
+    public synchronized static String getIdCardDetail(String cardNo) throws UnsupportedEncodingException{
         // 获取身份证信息
         IdCard idcard = getIdCardInfo(cardNo);
 
@@ -56,7 +56,7 @@ public class IdCardService {
         try{
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
-            url = new URL("http://api.k780.com:88/?app=idcard.get&idcard="+cardNo+"&appkey=10003&sign=b59bc3ef6191eb9f747dd4e83c99f2a4&format=xml");
+            url = new URL("http://api.k780.com/?app=idcard.get&idcard="+cardNo+"&appkey=55424&sign=2087898a51ccdcac1b224f8643325e94&format=xml");
             Document doc = builder.parse(url.openStream());
             NodeList node = doc.getElementsByTagName("result");
             for(int i=0;i<node.getLength();i++){

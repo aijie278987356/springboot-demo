@@ -76,7 +76,7 @@ public class CapitalServiceImpl implements CapitalService {
         }
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         for (String[] strs : list) {
-            String id = strs[0];
+            String id = strs[0].trim();
             String contract = strs[1];
             String name = strs[2];
             String date = strs[3];
@@ -88,7 +88,11 @@ public class CapitalServiceImpl implements CapitalService {
             Date dateStart = sdf.parse(date);
             Calendar rightNow = Calendar.getInstance();
             rightNow.setTime(dateStart);
-            rightNow.add(Calendar.MONTH, Integer.parseInt(term.substring(0,2)));
+            if(term.length()==2){
+                rightNow.add(Calendar.MONTH, Integer.parseInt(term.substring(0,1)));
+            }else{
+                rightNow.add(Calendar.MONTH, Integer.parseInt(term.substring(0,2)));
+            }
             Date dt1 = rightNow.getTime();
             String dateEnd = sdf.format(dt1);
             String notes = null;
@@ -114,13 +118,23 @@ public class CapitalServiceImpl implements CapitalService {
 
             Calendar rightNow2 = Calendar.getInstance();
             rightNow2.setTime(new Date());
-            rightNow2.add(Calendar.MONTH, Integer.parseInt(term.substring(0,2)));
+            if(term.length()==2){
+                rightNow2.add(Calendar.MONTH, Integer.parseInt(term.substring(0,1)));
+            }else{
+                rightNow2.add(Calendar.MONTH, Integer.parseInt(term.substring(0,2)));
+            }
+
             Date dt2 = rightNow2.getTime();
             String dueDate = sdf.format(dt2);
 
             capital.setDueDate(dueDate);
             StringBuilder code = new StringBuilder();
-            code.append("$(\"#regtimelimit\").val(").append(term.substring(0,2)).append(");");
+            if(term.length()==2){
+                code.append("$(\"#regtimelimit\").val(").append(term.substring(0,1)).append(");");
+            }else {
+                code.append("$(\"#regtimelimit\").val(").append(term.substring(0,2)).append(");");
+            }
+
             code.append("$(\"#countRealexpiredateDiv\").text('").append(dueDate).append("');");
             code.append("$(\"#personfillarchiveno\").val(").append(contract).append(");$(\"#addMyselfBtn\").click();");
             code.append("$(\"#maincontractno\").val(").append(contract).append(");");

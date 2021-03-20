@@ -1,0 +1,36 @@
+2020-11-22 18:31:00.591  INFO 5648 --- [main] .a.h.SpringbootDemoHelloworldApplication : Starting SpringbootDemoHelloworldApplication on DESKTOP-J8PU2EC with PID 5648 (D:\study\springboot-demo\springboot-demo-helloworld\target\classes started by 13920 in D:\study\springboot-demo)
+2020-11-22 18:31:00.595  INFO 5648 --- [main] .a.h.SpringbootDemoHelloworldApplication : No active profile set, falling back to default profiles: default
+2020-11-22 18:31:03.661  INFO 5648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-22 18:31:03.687  INFO 5648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-22 18:31:03.693  INFO 5648 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-11-22 18:31:03.700  INFO 5648 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Java\jdk1.8.0_65\bin;D:\Java\jdk1.8.0_65\jre\bin;D:\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\mysql-8.0.13-winx64\bin;D:\Program Files\nodejs\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;D:\Program Files\Git\cmd;C:\Users\13920\AppData\Local\Microsoft\WindowsApps;C:\Users\13920\AppData\Roaming\npm;;D:\Program Files\Fiddler;.]
+2020-11-22 18:31:03.874  INFO 5648 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-22 18:31:03.874  INFO 5648 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3232 ms
+2020-11-22 18:31:03.906  INFO 5648 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-11-22 18:31:03.910  INFO 5648 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-11-22 18:31:03.911  INFO 5648 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-11-22 18:31:03.911  INFO 5648 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-11-22 18:31:03.911  INFO 5648 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-11-22 18:31:05.761  INFO 5648 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-22 18:31:05.951  INFO 5648 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-11-22 18:31:06.236  INFO 5648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-22 18:31:06.240  INFO 5648 --- [main] .a.h.SpringbootDemoHelloworldApplication : Started SpringbootDemoHelloworldApplication in 6.312 seconds (JVM running for 8.988)
+2020-11-22 18:31:35.372  INFO 5648 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-22 18:31:35.372  INFO 5648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-22 18:31:35.388  INFO 5648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-11-22 18:31:35.416  INFO 5648 --- [http-nio-8080-exec-1] org.aijie.helloworld.aspect.AopLog       : 【请求 URL】：http://localhost:8080/index
+2020-11-22 18:31:35.417  INFO 5648 --- [http-nio-8080-exec-1] org.aijie.helloworld.aspect.AopLog       : 【请求 IP】：0:0:0:0:0:0:0:1
+2020-11-22 18:31:35.419  INFO 5648 --- [http-nio-8080-exec-1] org.aijie.helloworld.aspect.AopLog       : 【请求类名】：org.aijie.helloworld.capital.controller.CapitalController，【请求方法名】：index
+2020-11-22 18:31:35.436  INFO 5648 --- [http-nio-8080-exec-1] org.aijie.helloworld.aspect.AopLog       : 【请求参数】：{}，
+2020-11-22 18:31:35.442  INFO 5648 --- [http-nio-8080-exec-1] org.aijie.helloworld.aspect.AopLog       : 【返回值】：index
+2020-11-22 18:31:35.443  INFO 5648 --- [http-nio-8080-exec-1] org.aijie.helloworld.aspect.AopLog       : 【请求耗时】：7毫秒
+2020-11-22 18:31:35.458  INFO 5648 --- [http-nio-8080-exec-1] org.aijie.helloworld.aspect.AopLog       : 【浏览器类型】：CHROME8，【操作系统】：WINDOWS_10，【原始User-Agent】：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+2020-11-22 18:32:00.918  INFO 5648 --- [http-nio-8080-exec-4] org.aijie.helloworld.aspect.AopLog       : 【请求 URL】：http://localhost:8080/import
+2020-11-22 18:32:00.919  INFO 5648 --- [http-nio-8080-exec-4] org.aijie.helloworld.aspect.AopLog       : 【请求 IP】：0:0:0:0:0:0:0:1
+2020-11-22 18:32:00.919  INFO 5648 --- [http-nio-8080-exec-4] org.aijie.helloworld.aspect.AopLog       : 【请求类名】：org.aijie.helloworld.capital.controller.CapitalController，【请求方法名】：excelImport
+2020-11-22 18:32:00.920  INFO 5648 --- [http-nio-8080-exec-4] org.aijie.helloworld.aspect.AopLog       : 【请求参数】：{}，
+2020-11-22 18:32:02.413  INFO 5648 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-22 18:32:03.321  INFO 5648 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-22 18:32:19.151  INFO 5648 --- [http-nio-8080-exec-4] org.aijie.helloworld.aspect.AopLog       : 【返回值】：excel文件数据导入成功！
+2020-11-22 18:32:19.152  INFO 5648 --- [http-nio-8080-exec-4] org.aijie.helloworld.aspect.AopLog       : 【请求耗时】：18232毫秒
+2020-11-22 18:32:19.152  INFO 5648 --- [http-nio-8080-exec-4] org.aijie.helloworld.aspect.AopLog       : 【浏览器类型】：CHROME8，【操作系统】：WINDOWS_10，【原始User-Agent】：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36

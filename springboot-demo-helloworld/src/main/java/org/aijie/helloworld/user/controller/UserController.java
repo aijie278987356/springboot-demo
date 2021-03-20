@@ -1,5 +1,6 @@
 package org.aijie.helloworld.user.controller;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.aijie.helloworld.user.entity.User;
 import org.aijie.helloworld.user.service.UserService;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -7,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * (User)表控制层
@@ -16,6 +18,7 @@ import javax.annotation.Resource;
  */
 @RestController
 @RequestMapping("user")
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class UserController {
     /**
      * 服务对象
@@ -41,6 +44,11 @@ public class UserController {
     @GetMapping("selectOne")
     public User selectOne(Long id) {
         return this.userService.queryById(id);
+    }
+
+    @GetMapping("findAllUser")
+    public List<User> findAllUser(){
+        return this.userService.queryAllByLimit(0,10);
     }
 
 }

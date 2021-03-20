@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8090
 spring:
   datasource:
     username: root
@@ -17,10 +17,12 @@ spring:
 #    com.example: debug
 version: 1.0
 
-#dao
-  #mybatis:
-  #  type-aliases-package: org.aijie.helloworld.user.dao
-#  mapper-locations: classpath*:org/aijie/helloworld/dao/*.xml
+mybatis:
+  configuration:
+    # 下划线转驼峰
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mappers/*.xml
+  type-aliases-package: org.aijie.helloworld.*.dao
 
 pagehelper:
   helperDialect: mysql
@@ -30,4 +32,9 @@ pagehelper:
   offsetAsPageNum: true
   rowBoundsWithCount: true
   pageSizeZero: true
+
+logging:
+  level:
+    org.aijie: debug
+    org.aijie.helloworld.*.dao: trace
 

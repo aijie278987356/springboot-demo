@@ -12,19 +12,7 @@ import org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver;
 import javax.mail.MessagingException;
 import java.net.URL;
 
-/**
- * <p>
- * 邮件测试
- * </p>
- *
- * @package: com.xkcoding.email.service
- * @description: 邮件测试
- * @author: yangkai.shen
- * @date: Created in 2018/11/21 13:49
- * @copyright: Copyright (c) 2018
- * @version: V1.0
- * @modified: yangkai.shen
- */
+
 public class MailServiceTest extends SpringbootDemoEmailApplicationTests {
     @Autowired
     private MailService mailService;
@@ -38,7 +26,7 @@ public class MailServiceTest extends SpringbootDemoEmailApplicationTests {
      */
     @Test
     public void sendSimpleMail() {
-        mailService.sendSimpleMail("278987356@qq.com", "这是一封简单邮件", "这是一封普通的SpringBoot测试邮件");
+        mailService.sendSimpleMail("melodypure@qq.com", "这是一封简单邮件", "这是一封普通的邮件");
     }
 
     /**
@@ -49,12 +37,12 @@ public class MailServiceTest extends SpringbootDemoEmailApplicationTests {
     @Test
     public void sendHtmlMail() throws MessagingException {
         Context context = new Context();
-        context.setVariable("project", "Spring Boot Demo");
-        context.setVariable("author", "aijie");
-        context.setVariable("url", "https://github.com/aijie278987356/springboot-demo");
+        context.setVariable("project", "Demo");
+        context.setVariable("author", "");
+        context.setVariable("url", "www.baidu.com");
 
         String emailTemplate = templateEngine.process("welcome", context);
-        mailService.sendHtmlMail("278987356@qq.com", "这是一封模板HTML邮件", emailTemplate);
+        mailService.sendHtmlMail("melodypure@qq.com", "这是一封模板HTML邮件", emailTemplate);
     }
 
     /**
